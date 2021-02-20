@@ -22,12 +22,18 @@ $(document).ready(function(){
   
   </head>
 <body>
+<<<<<<< HEAD
 
 {{View::make('header')}}
 @yield('content')
 {{View::make('footer')}}
 
 
+=======
+{{View::make('header')}}
+@yield('content')
+{{View::make('footer')}}
+>>>>>>> 4976452c0048139c14a5de981584aff8e0a0c1a5
     
 </body>
 </html>

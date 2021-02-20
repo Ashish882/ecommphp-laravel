@@ -1,8 +1,11 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+<<<<<<< HEAD
 use App\Http\Controllers\UserController;
 
+=======
+>>>>>>> 4976452c0048139c14a5de981584aff8e0a0c1a5
 
 /*
 |--------------------------------------------------------------------------
@@ -15,9 +18,15 @@ use App\Http\Controllers\UserController;
 |
 */
 
+<<<<<<< HEAD
 Route::get('/login', function () {
     return view('login');
 });
 
 Route::post("login",[UserController::class,'login']);
 
+=======
+Route::get('/', function () {
+    return view('login');
+});
+>>>>>>> 4976452c0048139c14a5de981584aff8e0a0c1a5
