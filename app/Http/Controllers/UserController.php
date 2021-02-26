@@ -13,7 +13,7 @@ class UserController extends Controller
 
     
       //  return $req->input();
-      return User::where(['email'=>$req->email])->first();
+      $user =  User::where(['email'=>$req->email])->first();
     }
 
 
